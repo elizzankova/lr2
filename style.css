@@ -1,0 +1,220 @@
+.body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*intro*/
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background: url(images/1.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro_inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+.intro_suptitle{
+    background-color: rgba(27, 27, 27, 0.7);
+    border-radius: 45px;
+    color: white;
+    font-size: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*sections*/
+
+.section{
+    padding: 30px 0 0 0;
+    height: 195vh;
+}
+.section2{
+    height: 150vh;
+    padding: 30px 0 0 0;
+}
+.section3{
+    height: 80vh;
+    padding: 30px 0 0 0;
+}
+.section_header{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+.month{
+    font-size: 80px;
+    color: #333;
+    text-transform: uppercase;
+
+}
+.section_text {
+    font-size: 25px;
+    color: #666;
+}
+.month:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.img2{
+    width: 45%;
+}
+.img3{
+    width: 25%;
+}
+.img4{
+    height: 73%;
+    width: 28%;
+}
+.column {
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.column img {
+    transition: 1s; /* Время эффекта */
+}
+.column img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.section_niz{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.month1{
+    font-size: 40px;
+    color: #333;
+    text-transform: uppercase;
+}
+.month1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+.zanry{
+    margin: 0 auto;
+    max-width: 250px;
+}
+.zanryy{
+    font-size: 30px;
+    color: #333;
+}
+.img16{
+    width: 29%;
+    height: 90%;
+}
+.img6{
+    width: 35%;
+}
+.img11{
+    width: 35%;
+
+}
+.zanry1{
+    max-width: 650px;
+    margin: 0 auto;
+
+}
+.tabl{
+    margin: 0 auto;
+    width: 900px; /* Ширина таблицы */
+    border-collapse: collapse;
+    font-size: 30px;
+    color: #333;
+}
+td, th{
+    text-align: center;
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+.fignya{
+    background-color: cornflowerblue;
+    height: 40vh;
+}
+.fig{
+    width: 98%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.text{
+    padding-top: 50px;
+    color: pink;
+}
+.text:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+.text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+.fig:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
